@@ -63,7 +63,8 @@ function Main() {
     <div>
       <Navbar setSearch={setSearch} />
       <Menubar setMenu={setMenu} />
-      <Home products={filteredProd} /> 
+      {/* Pass both products and menu to Home component */}
+      <Home products={filteredProd} menu={menu} /> 
       <Footer />
     </div>
   );

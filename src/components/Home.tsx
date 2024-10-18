@@ -6,6 +6,7 @@ type Product = {
     price: number;
     title: string;
     category: string;  // Added category field
+    
   };
   
   type ProductsProps = {
